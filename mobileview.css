@@ -1,0 +1,54 @@
+@media only screen and (max-width: 768px) {
+  body {
+    margin-left: 3vw;
+    margin-right: 3vw;
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+    font-size: 2.4vw;
+    font-family: "Open Sans", sans-serif;
+  }
+}
+@media only screen and (max-width: 768px) {
+  #dummy-text {
+    margin-right: 5rem;
+  }
+  #statistics {
+    margin-right: 2.5rem;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .btns {
+    position: absolute;
+    top: 0.05rem;
+    right: 1rem;
+    padding-right: 1vw;
+    padding-top: 1vw;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .works-imgs {
+    display: flex;
+    padding: 1vw;
+  }
+  .reviewer-creds {
+    margin-left: 2.5rem;
+    margin-right: 2.5rem;
+    display: flex;
+    justify-content: left;
+  }
+  .reviewer-img {
+    width: 2rem;
+    margin-right: 0.25rem;
+  }
+  .star-img {
+    width: 1rem;
+  }
+  .review-text {
+    margin-left: 2.5rem;
+    margin-right: 2.5rem;
+    justify-content: center;
+  }
+  .faq-qn {
+    margin-right: 2rem;
+  }
+}

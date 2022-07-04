@@ -1,0 +1,54 @@
+.light-text {
+  color: hotpink;
+}
+#dummy-text {
+  margin-right: 20rem;
+}
+#statistics {
+  margin-right: 10rem;
+}
+
+h1 {
+  font-size: 3.5rem;
+}
+h2 {
+  font-size: 3rem;
+}
+.reviewer-creds {
+  margin-left: 10rem;
+  margin-right: 10rem;
+  display: flex;
+  justify-content: left;
+}
+.review-text {
+  margin-left: 10rem;
+  margin-right: 10rem;
+  justify-content: center;
+}
+.faq-qn {
+  margin-right: 20rem;
+}
+
+.bottom-line-1 {
+  display: grid;
+  grid-template-columns: 4fr 1fr 1fr;
+}
+ul {
+  justify-content: right;
+  font-size: 0.7rem;
+}
+li {
+  padding: 0.2rem;
+  list-style-type: none;
+}
+.bullet-img {
+  width: 0.7rem;
+}
+hr {
+  border: 1px solid #e1e5ee;
+}
+.bottom-line-2 {
+  display: grid;
+  grid-template-columns: 6fr 1fr 1fr;
+  font-size: 0.6rem;
+}

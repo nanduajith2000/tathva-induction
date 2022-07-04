@@ -1,0 +1,39 @@
+body {
+  margin-left: 7vw;
+  margin-right: 7vw;
+  margin-top: 2.5vw;
+  margin-bottom: 2.5vw;
+  font-size: 1.2vw;
+  font-family: "Open Sans", sans-serif;
+}
+.logo-img {
+  width: 1.5em;
+}
+#image-1 {
+  width: 100%;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.flex-container {
+  display: flex;
+}
+.flex-child:first-child {
+  flex: 2;
+  width: 50%;
+}
+.flex-child:second-child {
+  flex: 1;
+}
+.works-imgs {
+  display: flex;
+  padding: 3vw;
+}
+
+.reviewer-img {
+  width: 5rem;
+  margin-right: 1rem;
+}
+.star-img {
+  width: 1rem;
+}
