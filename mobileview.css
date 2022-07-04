@@ -1,4 +1,4 @@
-@media only screen and (max-width: 768px) {
+@media screen and (max-width: 800px) {
   body {
     margin-left: 3vw;
     margin-right: 3vw;
@@ -7,16 +7,14 @@
     font-size: 2.4vw;
     font-family: "Open Sans", sans-serif;
   }
-}
-@media only screen and (max-width: 768px) {
+
   #dummy-text {
     margin-right: 5rem;
   }
   #statistics {
     margin-right: 2.5rem;
   }
-}
-@media only screen and (max-width: 768px) {
+
   .btns {
     position: absolute;
     top: 0.05rem;
@@ -24,8 +22,7 @@
     padding-right: 1vw;
     padding-top: 1vw;
   }
-}
-@media only screen and (max-width: 768px) {
+
   .works-imgs {
     display: flex;
     padding: 1vw;
@@ -52,3 +49,4 @@
     margin-right: 2rem;
   }
 }
+
