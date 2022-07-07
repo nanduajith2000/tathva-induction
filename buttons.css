@@ -1,55 +1,56 @@
 .btns {
   position: absolute;
-  top: 0.1rem;
-  right: 4.8rem;
-  padding-right: 2vw;
-  padding-top: 2vw;
+  top: 0.001vw;
+  right: 0.001vw;
+  padding-right: 0.1vw;
+  padding-top: 0.01vw;
 }
 
 .btn {
-  background-color: white;
+  background-color: var(--white);
   font-weight: bold;
   border: none;
   padding: 1rem;
   transition-duration: 0.5s;
 }
 .btn:hover {
-  background-color: black;
-  color: white;
+  background-color: var(--black);
+  color: var(--white);
 }
 .btn:active {
-  background-color: lightblue;
-  color: black;
+  background-color: var(--textgrey);
+  color: var(--black);
 }
 .dark-btn {
-  background-color: black;
-  color: white;
+  background-color: var(--black);
+  color: var(--white);
   font-weight: bold;
   border: none;
   padding: 1rem;
   transition-duration: 0.5s;
 }
 .dark-btn:hover {
-  background-color: white;
-  color: black;
+  background-color: var(--white);
+  color: var(--black);
 }
 .dark-btn:active {
-  background-color: lightblue;
-  color: black;
+  background-color: var(--textgrey);
+  color: var(--black);
 }
 .blue-btn {
-  background-color: blueviolet;
-  color: white;
+  background-color: var(--buttonblue);
+  color: var(--white);
   font-weight: bold;
   border: none;
   padding: 1rem;
   transition-duration: 0.5s;
 }
 .blue-btn:hover {
-  background-color: white;
-  color: black;
+  background-color: var(--white);
+  color: var(--black);
 }
 .blue-btn:active {
-  background-color: lightblue;
-  color: black;
+  background-color: var(--textgrey);
+  color: var(--black);
 }
+
