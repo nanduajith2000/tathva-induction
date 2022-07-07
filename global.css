@@ -5,35 +5,34 @@ body {
   margin-bottom: 2.5vw;
   font-size: 1.2vw;
   font-family: "Open Sans", sans-serif;
+  position: relative;
 }
-.logo-img {
-  width: 1.5em;
-}
-#image-1 {
-  width: 100%;
-  margin-top: 2rem;
-  margin-bottom: 2rem;
-}
-
-.flex-container {
-  display: flex;
-}
-.flex-child:first-child {
-  flex: 2;
-  width: 50%;
-}
-.flex-child:second-child {
-  flex: 1;
-}
-.works-imgs {
-  display: flex;
-  padding: 3vw;
+:root {
+  --textgrey: #818b9e;
+  --white: #ffffff;
+  --black: #000000;
+  --linegrey: #e1e5ee;
+  --buttonblue: #8a2be2;
 }
 
-.reviewer-img {
-  width: 5rem;
-  margin-right: 1rem;
+div {
+  display: block;
 }
-.star-img {
-  width: 1rem;
+h1 {
+  font-size: 4rem;
 }
+h2 {
+  font-size: 3rem;
+}
+ul {
+  justify-content: right;
+  font-size: 0.7rem;
+}
+li {
+  padding: 0.5rem;
+  list-style-type: none;
+}
+hr {
+  border: 1px solid var(--linegrey);
+}
+
