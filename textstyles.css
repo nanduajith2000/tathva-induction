@@ -1,5 +1,5 @@
 .light-text {
-  color: hotpink;
+  color: var(--textgrey);
 }
 #dummy-text {
   margin-right: 20rem;
@@ -8,11 +8,21 @@
   margin-right: 10rem;
 }
 
-h1 {
-  font-size: 4rem;
+.flex-container {
+  display: flex;
 }
-h2 {
-  font-size: 3rem;
+.flex-child:first-child {
+  flex: 2;
+  width: 50%;
+}
+.flex-child:second-child {
+  flex: 1;
+}
+.reviews {
+  padding: 8rem;
+}
+#faqs {
+  margin-top: 70rem;
 }
 .reviewer-creds {
   margin-left: 10rem;
@@ -33,20 +43,11 @@ h2 {
   display: grid;
   grid-template-columns: 4fr 1fr 1fr;
 }
-ul {
-  justify-content: right;
-  font-size: 0.7rem;
-}
-li {
-  padding: 0.2rem;
-  list-style-type: none;
-}
+
 .bullet-img {
   width: 0.7rem;
 }
-hr {
-  border: 1px solid #e1e5ee;
-}
+
 .bottom-line-2 {
   display: grid;
   grid-template-columns: 6fr 1fr 1fr;
